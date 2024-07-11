@@ -1,0 +1,318 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(to bottom right, grey, white, rgb(16, 93, 99), white);
+}
+.popup{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48vw;
+    height: 63vh;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    margin: auto;
+    margin-bottom: 180px;
+    margin-top: 100px;
+    background-color: rgb(66, 128, 133);
+ 
+}
+.pop{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.up{
+    font-size: 20px;
+    margin-bottom: 40px
+}
+.start{
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 32);
+    height: 20px;
+    box-shadow: 2px 2px 15px black;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 40px;
+    padding-top: 3px;
+    padding-bottom: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.start:hover{
+    background-color: gray;
+}
+
+.reg{
+    text-align: center;
+    display: flex;
+    justify-content:center ;
+    font-size: 40px;
+}
+.name{
+    display: block;
+    align-items: center;
+}
+
+.theform{
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    padding: 50px 50px 50px 50px;
+    width: 70vw;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: rgb(66, 128, 133);
+    font-size: 20px;
+}
+
+.name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.name .fullname{
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 47%;
+    height: 20px;
+    padding: 5px 5px 5px 15px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.email .emailen{
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 97%;
+    height: 20px;
+    padding: 5px 5px 5px 15px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.phone{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.phone .phonenum{
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 97%;
+    height: 20px;
+    padding: 5px 5px 5px 15px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.location{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.location .SA{
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 97%;
+    height: 20px;
+    padding: 5px 5px 5px 15px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.location .SAS{
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 18%;
+    height: 20px;
+    padding: 5px 5px 5px 15px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+select{
+    width: 20%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px 20px 5px 15px;
+    margin-top: 10px;
+}
+button{
+    width: 16% ;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 5px 5px 5px 15px;
+    text-align: left;
+    background-color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.bday{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bday .small{
+    font-size: small;
+    color: white;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+.bday .DOB{
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 97%;
+    height: 20px;
+    padding: 5px 15px 5px 15px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.gender{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.gen{
+    width: 100%;
+    padding: 5px 30px 5px 15px;
+    margin-top: 10px;
+}
+
+.hear{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.oth{
+    width: 99%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px 5px 5px 15px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+    
+.excited{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ran{
+    width: 71%;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.final{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.submit{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+    width: 100%;
+
+}
+.submit:hover{
+    background-color: grey;
+    cursor: pointer;
+
+}
+@media (max-width:600px)
+{
+    .pop{
+        font-size: 300%;
+        margin-bottom: 0;
+    }
+    .up{
+        font-size: 120%;
+        margin-bottom: 40px
+    }
+    .popup{
+        border: none;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 48vw;
+        height: 63vh;
+        text-align: center;
+        padding: 40px 50px 40px 50px;
+        margin: auto;
+        margin-bottom: 180px;
+        margin-top: 100px;
+        
+     
+    }
+    .name{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .name .fullname{
+        border: 1px solid grey;
+        border-radius: 20px;
+        width: 97%;
+        height: 20px;
+        padding: 5px 5px 5px 15px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    
+    .location .SAS{
+        border: 1px solid grey;
+        border-radius: 20px;
+        width: 97%;
+        height: 20px;
+        padding: 5px 5px 5px 15px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    select{
+        width: 50%;
+        border: 1px solid grey;
+        border-radius: 20px;
+        font-size: 15px;
+        padding: 5px 20px 5px 15px;
+        margin-top: 10px;
+    }
+    button{
+        width: 47% ;
+        border: 1px solid grey;
+        border-radius: 20px;
+        padding: 5px 5px 5px 15px;
+        text-align: left;
+        background-color: white;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .gen{
+        width: 106%;
+        padding: 5px 30px 5px 15px;
+        margin-top: 10px;
+    }
+    .excited{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .ran{
+        width: 20%;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+}

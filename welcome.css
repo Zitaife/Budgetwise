@@ -1,0 +1,12 @@
+body{
+    background-image: linear-gradient(to bottom right,rgb(250, 213, 219), white,white, rgb(248, 217, 222));
+    transition: all;
+}
+img,.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    
+}

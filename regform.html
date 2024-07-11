@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now | Budgetwise</title>
+    <link rel="stylesheet" href="./regform.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="popup">
+        <h1 class="pop">Hey There!</h1>
+        <h6 class="up">Are you ready to begin your journey to financial freedom?
+        <br> <br> <br>Complete your registration by answering the following questions!  <br> <br> <br>
+        <a href="#form" class="start">START</a>
+        </h6>
+    </div>
+
+    <form action="./home.html" id="form" class="theform" autocomplete="on">
+
+        <h1 class="reg">REGISTRATION FORM</h1>
+    
+        <div class="name">
+            <label for="name">1. Let's start with your name </label> <br>
+            <input type="text" placeholder="First Name" class="fullname">
+            <input type="text" placeholder="Last Name" class="fullname" required autofill="on">
+        </div>
+
+        <div class="email">
+            <label for="email">2. Can you enter your primary email?</label> <br>
+            <input type="email" placeholder="Enter your email here" class="emailen" required autocomplete="on">
+        </div>
+
+        <div class="phone">
+            <label for="phone">3. Can we have your phone number?</label> <br>
+            <input type="number" placeholder="Enter your phone number here" class="phonenum" required autocomplete="on">
+        </div>
+
+        <div class="location">
+            <label for="location">4. Where do you live currently?</label> <br>
+            <input type="text" placeholder="Street Address" class="SA" required autocomplete="on"> <br>
+            <input type="text" placeholder="Street Address Line 2" class="SA"> <br>
+            <input type="text" placeholder="City" class="SAS">
+            <input type="text" placeholder="State" class="SAS">
+            <input type="text" placeholder="Postal Code" class="SAS">
+            <label for="country">
+                <select name="country" id="country" >
+                    <option value="countries" class="countries">Select a Country</option>
+                    <option value="countries" class="countries">Nigeria</option>
+                </select>
+                <button type="button" onclick="alert('Registration is open to only Nigerians')" > Other Countries?
+                </button>
+            </label>
+        </div>
+
+        <div class="bday">
+            <label for="bday">5. Can you tell us your birthday?</label> <br>
+            <label for="bday" class="small">You have to be above 18</label> <br>
+            <input type="date" placeholder="Select your date of birth" class="DOB" required autocomplete="on">
+        </div>
+
+        <div class="gender">
+            <label for="gender">6. Please select your gender: </label>
+            <select name="gender" class="gen">
+                <option value="gender" class="gen" >Choose One</option>
+                <option value="gender" class="gen" >Female</option>
+                <option value="gender" class="gen">Male</option>
+                <option value="gender" class="gen">Not Human</option>
+            </select>
+        </div>
+
+        <div class="hear">
+            <label for="hear">7. How did you hear about us?</label> <br>
+            <input type="radio" placeholder="Social Media" name="hear">
+            <label for="hear" id="hear" >Social Media</label> <br>
+            <input type="radio" placeholder="Blog" name="hear">
+            <label for="hear" id="hear">Blog</label> <br>
+            <input type="radio" placeholder="Friend/Family" name="hear">
+            <label for="hear" id="hear">Friend/Family</label> <br>
+            <input type="radio" placeholder="Google Ad" name="hear">
+            <label for="radio" id="hear">Google Ad</label> <br>
+            <input type="radio" name="hear"> 
+            <label for="hear">Other:</label>
+            <input type="text" class="oth" id="hearoth" placeholder="Please Specify" name="hear">
+        </div>
+
+        <div class="excited">
+            <label for="exc">8. How are excited are you to begin this journey? (on a scale of 1-10)</label> <br>
+            <label for="exc">1(Not excited)</label>
+            <input type="range" class="ran" required autocomplete="on">
+            <label for="exc">10 (Very excited)</label>
+        </div>
+       
+        <div class="final">
+            <input type="checkbox" name="about" id="about" required autocomplete="on">
+            <label for="hear">I have read, understood and accepted the 
+                <a href="#">Privacy Policy and Terms and Conditions</a></label>
+        </div>
+
+        <input type="submit" class="submit" value="Submit Form">
+    </form>
+    
+</body>
+</html>

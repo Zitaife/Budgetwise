@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS' ;
+    background: url(./Predator.jpg);
+    background-size: cover;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(206, 211, 235);
+}
+a:hover{
+    color: white;
+}
+aside h1{
+    color: white;
+}
+h1{
+    color: black;
+    margin: 16px 0;
+    font-weight: 900;
+
+}
+h3{
+    margin: 8px  0;
+    font-weight: 800;
+}
+p{
+    margin: 16px 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+img{
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 10vh auto 5vh;
+    height: 100vh;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 25px;
+    height: 10vh;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+}
+nav h1{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 5vh;
+    margin: auto;
+}
+nav ul li {
+    display: inline;
+    padding: 0 16px;
+}
+nav ul li a{
+    color: white;
+
+}
+header{
+    color: white;
+    background-color: rgb(46, 46, 46);
+    grid-column-start: span 3;
+    line-height: 10vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+
+}
+.logo{
+    height: 8vh;
+    width: 3vw;
+    margin-top:12px;
+    margin-right: 6px;
+    margin-bottom: 0;
+    top: 7px;
+}
+.bw{
+    margin-top: 7px;
+    margin: auto;
+}
+aside{
+    background-color: black;
+    grid-column-start: span 1;
+    padding: 50px;
+    border-bottom-left-radius: 10px;
+}
+aside .comments,.archives
+{
+    margin-top: 60px;
+}
+.meta{
+    padding: 4px 0 5px 25px;
+}
+p{
+    padding: 30px ;
+}
+small{
+    color: grey;
+}
+span{
+    color: black;
+}
+main{
+    background-color: rgb(252, 242, 249);
+    grid-column-start: span 2;
+    border-bottom-right-radius: 10px;
+}
+footer{
+    grid-column-start: span 3;
+    text-align: right;
+    color: white;
+}
+.mobile{
+    display: none;
+}
+
+@media(max-width:768px){
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vh auto auto ;
+        width: 100%;
+    }
+    .one{
+        display: flex;
+        flex-direction: row;
+    }
+    img.logo{
+        height: 5%;
+        width: 8vw;
+        margin-top: 30px;
+        margin-right: 5px;
+        margin-bottom: 23px;
+    }
+    nav h1
+    {
+        font-size: 30px;
+    }
+    .bw{
+        margin-top: 7px;
+        margin: auto;
+    }
+    aside{
+        background-color: black;
+        color: pink;
+        grid-column-start: span 1;
+    }
+    main{
+        background-color: rgb(252, 242, 249);
+        grid-column-start: span 3;
+        border-bottom-right-radius: 0px;
+    
+    }
+    p{
+        padding: 30px;
+    }
+    footer{
+        grid-column-start: span 1;
+        height: 5vh;
+        background-color: rgb(252, 242, 249);
+        color: black;
+        border-bottom-right-radius: 10px;
+        padding: 15px 5px;
+    
+    }
+    nav{
+        position: static;
+    }
+    nav ul li{
+        display: none;
+    }
+    a.mobile{
+        color: white;
+        display: block;
+        font-size: 32px;
+    }
+    
+}
